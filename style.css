@@ -469,7 +469,7 @@ nav {
 }
 .about-image-main {
   width: 60%;
-  height: auto;
+  height: 100%;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -477,7 +477,7 @@ nav {
 }
 .about-image-secondary {
   width: 50%;
-  height: auto;
+  height: 100%;
   position: absolute;
   left: 0;
   top: 0px;
