@@ -562,6 +562,7 @@ footer {
   color: var(--text-color);
 }
 .footer-content {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
