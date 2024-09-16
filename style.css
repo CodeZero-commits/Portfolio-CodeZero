@@ -21,8 +21,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -35,8 +35,8 @@ header {
   background-color: #000000;
 }
 .containerHeader {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -150,8 +150,8 @@ nav {
 .containerHero {
   display: flex;
   align-items: center;
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -415,7 +415,7 @@ nav {
 }
 
 .containerlabs {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -478,7 +478,9 @@ nav {
 }
 @media (max-width: 768px) {
   .labs-grid {
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .game-item:nth-child(1),
   .game-item:nth-child(2),
@@ -490,7 +492,7 @@ nav {
 /*Start About*/
 .containerAbout {
   height: 100vh;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -592,7 +594,7 @@ nav {
 /*End About*/
 /*Start Footer*/
 .containerFooter {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 20px;
 }
